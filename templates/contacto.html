@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{UDL-ICO}}</title>
-    </head>
-    <body>
-        <h1>Contacto</h1>
-        <p>Esta es la pagina de contacto para el proyecto UDL-ICO</p>
-    </body>
+{% extends 'layout.html' %}
+{% block content %}
+        <div class="container-fluid">
+        <h1>Contactos</h1>
+        <p>Hola {{mensaje}}</p>
+        <p>Aquí podrás encontrar nuestros contactos</p>
+        </div>
+{% endblock %}
