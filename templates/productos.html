@@ -5,5 +5,50 @@
             <p>Hola {{mensaje}}</p>
             <p>Aquí podrás encontrar nuestros productos</p>
         </div>
+       <div id="carouselExampleControls"
+class="carousel slide mi-carrusel"
+data-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<img src="{{ url_for('static', filename='img/productos/tachones.jpg') }}"
+class="d-block w-100"
+alt="tachones">
+</div>
+
+<div class="carousel-item">
+<img src="{{ url_for('static', filename='img/productos/balon.jpg') }}"
+class="d-block w-100"
+alt="balon">
+</div>
+
+<div class="carousel-item">
+<img src="{{ url_for('static', filename='img/productos/playera.jpg') }}"
+class="d-block w-100"
+alt="playera">
+</div>
+
+</div>
+
+<a class="carousel-control-prev"
+href="#carouselExampleControls"
+role="button"
+data-slide="prev">
+
+<span class="carousel-control-prev-icon"
+aria-hidden="true"></span>
+</a>
+
+<a class="carousel-control-next"
+href="#carouselExampleControls"
+role="button"
+data-slide="next">
+
+<span class="carousel-control-next-icon"
+aria-hidden="true"></span>
+</a>
+
+</div>
 {% endblock %}
 

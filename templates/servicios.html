@@ -3,7 +3,14 @@
         <div class="container-fluid">
        <h1>Servicios</h1>
         <p>Hola, {{mensaje}}</p>
+        <div class="card" style="width: 18rem;">
+                <img src="{{ url_for('static', filename='img/productos/tachones.jpg') }}" 
+                class="card-img-top" alt="Servicio de venta de tachones"> 
+                <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+        </div>
         </div>
 {% endblock %}
- 
-
